@@ -48,7 +48,7 @@ namespace seeta
              * \brief initialize `QualityOfLBN`
              * \param setting one specifc model, or zero model
              */
-            SEETA_API explicit QualityOfLBN( const seeta::ModelSetting &setting = seeta::ModelSetting() );
+            SEETA_API explicit QualityOfLBN( const SeetaModelSetting &setting );
 
             SEETA_API ~QualityOfLBN();
 

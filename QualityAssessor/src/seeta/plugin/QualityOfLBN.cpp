@@ -725,7 +725,7 @@ namespace seeta
 
         //////////////////////////////////////
 
-        QualityOfLBN::QualityOfLBN( const seeta::ModelSetting &setting )
+        QualityOfLBN::QualityOfLBN( const SeetaModelSetting &setting )
             : m_impl( new Implement( setting ) )
         {
         }
